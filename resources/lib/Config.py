@@ -437,7 +437,7 @@ class ConfigWindow(xbmcgui.WindowXMLDialog):
             self.log("getSmartPlaylistName return " + plname[0].childNodes[0].nodeValue)
             return plname[0].childNodes[0].nodeValue
         except:
-            self.playlisy('Unable to find element name')
+            self.log('Unable to find element name')
 
         self.log("getSmartPlaylistName return")
 
