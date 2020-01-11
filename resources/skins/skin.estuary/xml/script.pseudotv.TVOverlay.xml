@@ -253,7 +253,6 @@
 			<height>109</height>
 			<aspectratio>keep</aspectratio>
 			<visible>Player.HasVideo + ![Player.Seeking | Player.Paused | Player.Forwarding | Player.Rewinding | Player.IsTempo]</visible>
-			<animation effect="fade" end="20" condition="True">conditional</animation>
 		</control>
 	</controls>
 </window>
